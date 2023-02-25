@@ -5,11 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countries Rest Api</title>
+    <style>
+        .all-countries {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .country{
+            border: 2px solid rgb(150, 50, 50);
+            padding: 10px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
     <section>
+        <h1>All Countries Details</h1>
+        <div id="countries-details">
+
+        </div>
+    </section>
+    <section>
         <h1>Countries Rest Api</h1>
-        <div id="countries-container">
+        <div class="all-countries" id="countries-container">
 
         </div>
 
